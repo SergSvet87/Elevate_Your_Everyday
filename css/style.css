@@ -123,7 +123,7 @@ body {
 	margin: 56px 0 40px 0;
 }
 
-.header_wrapper_nav{
+.header_wrapper_nav {
 	width: 550px;
 	height: 40px;
 }
@@ -134,7 +134,7 @@ body {
 	align-items: flex-start;
 }
 
-.header_wrapper_nav_list_item{
+.header_wrapper_nav_list_item {
 	width: 105px;
 	height: 60px;
 	margin-right: 40px;
@@ -142,37 +142,40 @@ body {
 	padding-top: 15px;
 }
 
-.header_wrapper_nav_list_item_link{
+.header_wrapper_nav_list_item_link {
 	font-size: 16px;
 	line-height: 25px;
 	line-height: 135%;
 	color: #56593D;
 }
 
-.header_wrapper_nav_list_item_link:hover{
+.header_wrapper_nav_list_item_link:hover {
 	color: #9bad05;
 }
 
-.header_wrapper_nav_list_item_pic{
+.header_wrapper_nav_list_item_pic {
 	margin-top: 5px;
 }
 
 /* Logo start */
-.header_wrapper_logo_link{
+.header_wrapper_logo_link {
 	margin: 0 420px 0 110px;
 }
+
 /* Logo end */
 
 /* Barmenu start */
-.header_wrapper_navmenu{
+.header_wrapper_navmenu {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 }
-.header_wrapper_navmenu_link{
+
+.header_wrapper_navmenu_link {
 	padding-top: 10px;
 	margin-right: 30px;
 }
+
 /* Barmenu end */
 
 /* Logo and navmenu end*/
@@ -182,27 +185,27 @@ body {
 
 /* Main start */
 /* Collections start */
-.collections_wrapper_title{
+.collections_wrapper_title {
 	width: 100%;
 	height: 700px;
 	background: url('../images/jpg/intro.jpg') no-repeat;
 }
 
-.collections_text{
+.collections_text {
 	padding-top: 460px;
-	margin:  0 64px 10px 1085px;
+	margin: 0 64px 10px 1085px;
 	font-size: 18px;
 	line-height: 21.6px;
 	letter-spacing: 1.8px;
 }
 
-.collections_title{
+.collections_title {
 	margin: 0 64px 25px 825px;
 	font-size: 45px;
 	line-height: 60.5px;
 }
 
-.collections_btn{
+.collections_btn {
 	width: 154px;
 	height: 56px;
 	margin: 0 64px 65px 1110px;
@@ -210,50 +213,52 @@ body {
 	color: #ffffff;
 }
 
-.collections_btn:hover{
+.collections_btn:hover {
 	background-color: #9da171;
 }
 
 /* description start */
-.collections_wrapper_description{
+.collections_wrapper_description {
 	margin-top: 90px;
 	width: 100%;
 	height: 300px;
 	text-align: center;
 }
 
-.collections_wrapper_text{
+.collections_wrapper_text {
 	font-size: 57px;
 	line-height: 81px;
 	margin-bottom: 26px;
 }
 
-.collections_action--shop{
+.collections_action--shop {
 	margin-right: 70px;
 }
 
-.collections_action--stories, .collections_action--shop{
+.collections_action--stories,
+.collections_action--shop {
 	border: none;
-	background-color:#E5E5E5;
+	background-color: #E5E5E5;
 }
 
-.collections_action_movement{
+.collections_action_movement {
 	font-size: 16px;
 	line-height: 25.6px;
 	letter-spacing: 1.6px;
 }
 
-.collections_action_label{
+.collections_action_label {
 	margin-top: -17px;
 }
+
 /* description end */
 
 /* Maple_board start */
-.maple_board{
+.maple_board {
 	margin-top: 90px;
 }
 
-.maple_board_title{
+.maple_board_title {
 	padding-top: 65px;
 	margin-bottom: 80px;
 	font-size: 24px;
@@ -261,30 +266,33 @@ body {
 	text-align: center;
 }
 
-.maple_board_card{
+.maple_board_card {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.maple_board_card_blok{
+.maple_board_card_blok {
 	margin-right: 32px;
 	text-align: center;
 }
 
-.maple_board_card_blok:first-child{
+.maple_board_card_blok:first-child {
 	margin-left: 32px;
 }
 
-.maple_board_card_link{
-	margin-top: 16px;
+.maple_board_card_pic {
+	margin-bottom: 16px;
+}
+
+.maple_board_card_link {
 	margin-bottom: 7px;
 	font-size: 16px;
 	line-height: 21.6px;
 	color: #56593D;
 }
 
-.maple_board_card_price{
+.maple_board_card_price {
 	font-size: 16px;
 	line-height: 21.6px;
 	color: #717353;
@@ -294,14 +302,14 @@ body {
 
 
 /* Essentials start */
-.essentials_wrapper{
+.essentials_wrapper {
 	margin-top: 90px;
 	width: 100%;
 	height: 700px;
 	background: url('../images/jpg/essentials.jpg') no-repeat;
 }
 
-.essentials_title{
+.essentials_title {
 	padding-top: 62px;
 	font-size: 17px;
 	line-height: 21.6px;
@@ -309,7 +317,7 @@ body {
 	text-align: center;
 }
 
-.essentials_text{
+.essentials_text {
 	width: 1090px;
 	margin-left: auto;
 	margin-right: auto;
@@ -318,23 +326,24 @@ body {
 	line-height: 60.48px;
 	text-align: center;
 }
+
 /* Essentials end */
 
 
 /* Design Story start */
-.design_story_content{
+.design_story_content {
 	margin-top: 90px;
 	display: flex;
 	justify-content: space-between;
 	align-items: top;
 }
 
-.design_story_content_description{
+.design_story_content_description {
 	width: 522px;
 	height: 395px;
 }
 
-.design_story_title{
+.design_story_title {
 	width: 100%;
 	height: 40px;
 	margin: 63px 150px;
@@ -343,7 +352,7 @@ body {
 	margin-bottom: 66px;
 }
 
-.design_story__text{
+.design_story__text {
 	width: 347px;
 	margin-left: auto;
 	margin-right: auto;
@@ -352,11 +361,12 @@ body {
 	font-size: 20px;
 	line-height: 32.4px;
 }
+
 /* Design Story end */
 
 
 /* Your Table Your Time start */
-.your_time_content{
+.your_time_content {
 	height: 885px;
 	margin-top: 90px;
 	display: flex;
@@ -364,11 +374,12 @@ body {
 	align-items: top;
 }
 
-.design_story_content_description{
+.design_story_content_description {
 	width: 522px;
 	height: 395px;
 }
-.your_time_title{
+
+.your_time_title {
 	width: 100%;
 	height: 40px;
 	margin: 63px 122px;
@@ -377,7 +388,7 @@ body {
 	margin-bottom: 66px;
 }
 
-.your_time_text{
+.your_time_text {
 	width: 347px;
 	margin-left: auto;
 	margin-right: auto;
@@ -386,10 +397,11 @@ body {
 	font-size: 20px;
 	line-height: 32.4px;
 }
+
 /* Your Table Your Time end */
 
 /* Sign up start */
-.signup{
+.signup {
 	margin-top: 105px;
 	width: 100%;
 	height: 280px;
@@ -398,35 +410,40 @@ body {
 	margin-right: auto;
 }
 
-.signup_title{
+.signup_title {
 	margin-top: 30px;
 	font-size: 28px;
 	line-height: 38.88px;
 	margin-bottom: 16px;
 }
 
-.signup_text{
+.signup_text {
 	font-size: 17px;
 	line-height: 28.8px;
 	margin-bottom: 32px;
 }
 
-.signup_btn{
+.signup_btn {
 	width: 144px;
 	height: 22px;
-	background-color: #56593D;
+	background-color: #8a9157;
 	color: #ffffff;
 	text-transform: uppercase;
 }
+
+.signup_btn:hover {
+	background-color: #adb380;
+}
+
 /* Sign up end */
 
 /* Kinn Moments start */
-.moments{
+.moments {
 	width: 100%;
 	height: 520px;
 }
 
-.moments_title{
+.moments_title {
 	padding-top: 64px;
 	text-align: center;
 	font-size: 25px;
@@ -438,7 +455,7 @@ body {
 
 
 /* Footer start */
-.footer{
+.footer {
 	max-width: 100%;
 	height: 382px;
 	background-color: #717353;
@@ -447,54 +464,58 @@ body {
 	color: #ffffff;
 }
 
-.footer_copyright{
- margin-left: 70px;
- margin-bottom: 15px;
+.footer_copyright {
+	margin-left: 70px;
+	margin-bottom: 15px;
 }
 
-.label{
+.label {
 	width: 15px;
 	margin-bottom: 17px;
 	color: #ffffff;
 }
 
-.mail{
+.mail {
 	font-size: 16px;
 	line-height: 25.2px;
 }
 
-footer a{
+footer a {
 	color: #ffffff;
 }
 
-.title{
+.footer a:hover {
+	color: #9da171;
+}
+
+.title {
 	font-size: 20px;
 	line-height: 18.9px;
 	margin-bottom: 30px;
 }
 
-.footer_explore{
+.footer_explore {
 	margin-left: 250px;
 	display: flex;
 	flex-direction: column;
 }
 
-.footer_help{
+.footer_help {
 	margin-left: 200px;
 	display: flex;
 	flex-direction: column;
 }
 
-footer>div>a{
+footer>div>a {
 	margin-bottom: 20px;
 }
 
-.footer_explore_label{
+.footer_explore_label {
 	padding-top: 5px;
 	padding-left: 5px;
 }
 
-.footer_soc-network{
+.footer_soc-network {
 	width: 122px;
 	height: 22px;
 	display: flex;
@@ -502,7 +523,12 @@ footer>div>a{
 	align-items: flex-end;
 	margin-left: 400px;
 }
-.footer_soc-network_pic{
+
+.footer_soc-network_pic {
 	margin-right: 20px;
+}
+
+.footer_soc-network_pic:hover{
+	background-color: #a0a576;
 }
 /* Footer end */
